@@ -1,0 +1,24 @@
+<center>
+    <div id="slideshow">
+    <img class="mySlides" src="afbeeldingen/Foto1.jpeg">
+    <img class="mySlides" src="afbeeldingen/Foto2.jpg">
+    <img class="mySlides" src="afbeeldingen/Foto3.jpg">
+    <img class="mySlides" src="afbeeldingen/Foto4.jpg">
+    </div>
+    </center>
+    
+    
+    #slideshow {
+    width: 800px;
+    display: inline-block;
+}
+
+#slideshow img {
+    border-radius: 10%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    max-width: 700px;
+    max-height: 500px;
+    min-height: 500px;
+    min-width: 700px;
+}
