@@ -1,0 +1,9 @@
+body {
+}
+#logo {
+    background-image: url(afbeeldingen/Logo.png) no-repeat;
+    padding: 40px 0px 0px 50px;
+    background: purple;
+    height: 50px;
+    width: 50px;
+}

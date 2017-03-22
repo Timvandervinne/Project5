@@ -3,8 +3,7 @@ body {
     margin: 0px;
     font-family: 'Ubuntu', sans-serif;
 }
-
-#logo {
+#banner {
     background: purple;
     height: 100px;
     background: url(afbeeldingen/Banner3.jpg) no-repeat;
@@ -15,7 +14,6 @@ nav {
     background: #BBDEFB;
     padding: 1%;
 }
-
 nav a {
     display: inline;
     width: 20%;
@@ -24,51 +22,61 @@ nav a {
     padding: 0.5%;
     margin: 5%;
 }
-
 nav a:hover {
     background: black;
     color: white;
 }
-img {
-    width: 400px;
-}
-article{
-    color: black;
-    width: 20%;
-    background-color: #BBDEFB;
-}
-
 .bordermenu{
     border: 2px solid #0D47A1;
     border-radius: 0px 0px 0px 0px;
 }
-
-.artikel{
-    border: 2px solid #0D47A1;
-    border-radius: 20px 20px 20px 20px;
-    padding: 10px;
+section {
+    width:90%;
+    margin-left: 10%;
     margin-top: 2%;
-    margin-left: 8%;
-    margin-right: 8%;
-    margin-bottom: 2%;
+}
+.artikel {
+    margin-bottom: 1%;
+    width: 45%;
     display: inline-block;
+    padding: 1%;
+    border: 2px solid purple;
+    border-radius: 10px 10px 10px 10px;
 }
-iframe {
-    margin-bottom: 2%;
+.foto1 {
+    width: 43%;
+    float: right;
+    padding-right: 5%;
 }
-
-footer img {
-    width: 40px;
-    display: inline;
-    margin: 0px;
-    padding: 0px;
+video {
+    width: 45%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+    margin-top: 3%;
 }
-
+.foto {
+    width: 45%;
+    margin-left: 10%;
+    background-color: red;
+}   
 footer {
     background-color: #1976D2;
-    position: relative;
+    padding: 1%;
 }
-
+footer a {
+    text-decoration: none;
+    color: white;
+    padding: 2px;
+}
+.socialmedia {
+    width: 9%;
+    border-right: 2px solid white;
+}
+.sitemap{
+    float: right; 
+    margin-right: 75%;
+    margin-top: -3%;
+}
 .formulier {
     background-color: white;
     width: 80%;
@@ -79,6 +87,7 @@ footer {
 form{
     background-color: #BBDEFB;
     margin: 0px;
+    margin-bottom: 5%;
 }
 form input{
     width: 80%;
